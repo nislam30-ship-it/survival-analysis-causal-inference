@@ -16,11 +16,4 @@ This repository demonstrates:
 
 Demonstrated using R's built-in primary biliary cholangitis (`pbc`) dataset from the `survival` package, extended with simulated survey weighting metadata to illustrate complex sampling integration.
 
-## Usage
 
-```R
-# Install required packages
-install.packages(c("survival", "survey", "broom", "ggplot2"))
-
-# Run survival pipeline
-source("01_survey_cox_survival_pipeline.R")
